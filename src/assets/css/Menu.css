@@ -109,7 +109,6 @@ aside{
     display: none;
     align-items: center;
     justify-content: center;
-    transition: .5s;
     z-index: -1;
 }
 aside ul{

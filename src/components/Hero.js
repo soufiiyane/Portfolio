@@ -12,7 +12,7 @@ function Hero() {
       }, []);
 
     return (
-        <div className='hero wow fadeIn' data-wow-duration="2s" data-wow-delay=".5s">
+        <div className='hero wow fadeIn' data-wow-duration="5s">
             <span>Hi, my name is</span>
             <h1>Soufiyane AitMoulay</h1>
             <h2>I build things for the web.</h2>

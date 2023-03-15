@@ -1,0 +1,37 @@
+.about{
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    padding: 0 10%;
+}
+.left-about {
+    width: 60%;
+}
+.left-about .about-headline {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.left-about .about-headline > div{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.left-about .about-headline span:last-child {
+    opacity: 0.5;
+    width: 200px;
+    height: 1px;
+    background-color: #ccd6f6;
+}
+.left-about p{
+    font-family: 'Space Mono', monospace;
+    text-align: justify;
+}
+.right-about{
+    width: 40%;
+    background-color: rgb(34, 178, 44);
+}
