@@ -32,19 +32,19 @@
     text-align: justify;
 }
 
-.hero button {
+.hero a {
     background-color: transparent;
     border: 1px solid #64ffda;
     border-radius: 5px;
     margin-top: 10px;
-    max-width: fit-content;
-    padding: 5px 8px;
+    width: fit-content;
+    padding: 5px;
     font-family: 'Space Mono';
     cursor: pointer;
     transition: .5s;
 }
 
-.hero button:hover {
+.hero a:hover {
     background-color: #64ffdb5d;
 }
 
