@@ -1,0 +1,132 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    color: #ccd6f6;
+}
+nav{
+    z-index: 10000;
+    margin: 0 auto;
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    transition: .2s;
+    position: fixed;
+    width: 100vw;
+}
+nav.scrolled{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+/* Humberger Styling */
+#toggle {
+    height: inherit;
+    display: none;
+}
+.humberger-Container{
+    display: none;
+}
+.hamburger div {
+    cursor: pointer;
+    position: relative;
+    width: 37px;
+    height: 2px;
+    border-radius: 3px;
+    background-color: #64ffda;
+    margin-top: 8px;
+    transition: all 0.3s ease-in-out;
+}
+.hamburger{
+    cursor: pointer;
+}
+.hamburger .top-bun{
+    width: 37px;
+}
+.hamburger .bottom-bun{
+    width: 15px;
+}
+.hamburger .meat{
+    width: 25px;
+}
+#toggle:checked + .hamburger .top-bun {
+  transform: rotate(-45deg);
+  margin-top: 25px;
+}
+#toggle:checked + .hamburger .bottom-bun {
+  opacity: 0;
+  transform: rotate(45deg);
+}
+#toggle:checked + .hamburger .meat {
+  transform: rotate(45deg);
+  margin-top: -2px;
+}
+#toggle:checked + .hamburger aside {
+   display: flex;
+   right: 0;
+}
+/* Humberger Styling End */
+
+/* Main Menu Styiling */
+nav ul{
+    font-size: 13px;
+    display: flex;
+    gap: 10px;
+}
+nav ul li{
+    padding: 6px 10px;
+}
+nav ul li span{
+    color: #64ffda;
+    margin-right: 4px;
+}
+nav li a{
+    transition: .5s;
+}
+nav li a:hover{
+    color: #64ffda;
+}
+nav li:last-child {
+    border-radius: 5px;
+    border: 1px solid  #64ffda;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav li:last-child:hover {
+    background-color: #64ffdb3a;
+}
+/* Main Menu Styling end */
+
+/* Mobile Menu Styiling */
+aside{
+    position: fixed;
+    top: 0;
+    right: -250px;
+    background-color: #072b61;
+    height: 100vh;
+    width: 250px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    z-index: -1;
+}
+aside ul{
+    flex-direction: column;
+    font-size: 16px;
+    gap: 30px;
+}
+/* Mobile Menu Styiling end */
+@media (max-width: 768px){
+    nav > ul{
+        display: none;
+    }
+    .humberger-Container{
+        display: block;
+        position: fixed;
+        right: 5%;
+        z-index: 10;
+    }
+    
+}

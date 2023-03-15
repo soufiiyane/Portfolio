@@ -1,0 +1,61 @@
+.hero {
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+    font-size: 16px;
+}
+
+.hero span {
+    color: #64ffda;
+    font-family: 'Space Mono';
+}
+
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    color: #e6f1ff;
+}
+
+.hero h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    opacity: .5;
+    color: #e6f1ff;
+}
+
+.hero p {
+    font-family: 'Space Mono';
+    max-width: 550px;
+    text-align: justify;
+}
+
+.hero button {
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 5px;
+    margin-top: 10px;
+    max-width: fit-content;
+    padding: 5px 8px;
+    font-family: 'Space Mono';
+    cursor: pointer;
+    transition: .5s;
+}
+
+.hero button:hover {
+    background-color: #64ffdb5d;
+}
+
+@media (max-width: 768px){
+    .hero{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px){
+    .hero{
+        font-size: 6px;
+    }
+}
