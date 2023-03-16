@@ -1,7 +1,15 @@
 import '../assets/css/Experience.css'
 import { Chrono } from "react-chrono";
-
+import React, { useState, useEffect } from 'react';
+import WOW from 'wowjs';
+import "../../node_modules/wowjs/css/libs/animate.css";
 function Experience(){
+  useEffect(() => {
+    const wow = new WOW.WOW({
+      live: false,
+    });
+    wow.init();
+  }, []);
     const items = [{
         title: "Jun 2022",
         cardTitle: "BTS in Computer Science",
@@ -12,7 +20,7 @@ function Experience(){
         title: "Aug 2022",
         cardTitle: "Back-end developer",
         cardSubtitle:"TMT company",
-        cardDetailedText: "it was really amzing experience and fun at the same time to work with people that share same passion, i worked with technologies such as (WordPress,Symfony...)."
+        cardDetailedText: "it was really amzing experience and fun at the same time to work with people that share same passion, i worked with technologies such as WordPress,Symfony..."
       },
       {
         title: "Oct 2022",
@@ -22,7 +30,14 @@ function Experience(){
       }
     ];
     return(
-        <div className='experience' >
+        <div id='experience' className='experience wow fadeIn' data-wow-duration="3s">
+          <div className='about-headline'>
+            <div>
+                <span>02.</span>
+                <h2>Experience</h2>
+            </div>
+            <span></span>
+          </div>
             <Chrono items={items} slideShow mode="VERTICAL" />
         </div>
     )

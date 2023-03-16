@@ -1,10 +1,10 @@
 .experience{
-    margin: 0 auto;
-    padding: 0 10%;
+    padding: 0 10%;    
 }
 .timeline-controlstyles__TimelineNavWrapper-sc-1apb8f9-0{
     display: none !important;
 }
+
 .timeline-card-contentstyles__TimelineCardTitle-sc-d7qjm1-3 > a{
     font-family: 'Poppins' , sans-serif;
     color: black !important;
@@ -15,19 +15,29 @@
 p.timeline-card-contentstyles__TimelineContentDetails-sc-d7qjm1-4{
     text-align: justify;
     font-family: 'Space Mono',sans-serif;
+    word-spacing: wrap !important;
 }
 .dWNZQD{
     font-family: 'Space Mono',sans-serif;
     color: #e6f1ff !important ;
+    text-align: center !important;
+    overflow: unset !important;
 }
 .dWNZQD.active{
     font-family: 'Space Mono',sans-serif;
     background: #233554 !important;
     color: #e6f1ff !important;
+    text-align: center;
+    
 }
 .igUvje:not(.using-icon).active::after {
     background: #64ffda !important;
 }
 .igUvje:not(.using-icon){
     background-color: #e6f1ff !important;
+}
+.timeline-card-contentstyles__ShowMore-sc-d7qjm1-7 > span{
+    font-family: 'Poppins' , sans-serif;
+    color: black !important;
+    
 }

@@ -6,7 +6,7 @@
     gap: 50px;
     margin: 0 auto;
 }
-.left-about .about-headline {
+.about-headline {
     position: relative;
     display: flex;
     align-items: center;
@@ -14,18 +14,18 @@
     font-family: 'Space Mono', monospace;
     margin-bottom: 15px;
 }
-.left-about .about-headline > div{
+.about-headline > div{
     display: flex;
     align-items: baseline;
     gap: 5px;
 }
-.left-about .about-headline > div h2{
+.about-headline > div h2{
     white-space: nowrap;
 }
-.left-about .about-headline > div > span{
+.about-headline > div > span{
     color: #64ffda;
 }
-.left-about .about-headline span:last-child {
+ .about-headline span:last-child {
     opacity: 0.5;
     width: 100px;
     height: 1px;
@@ -114,6 +114,7 @@
         height: fit-content;
         grid-template-columns: 100%;
         grid-template-rows: auto auto;
+        margin-bottom: 10vh;
     }
     .skills{
         flex-direction: column;
@@ -134,6 +135,7 @@
         height: fit-content;
         grid-template-columns: 100%;
         grid-template-rows: auto auto;
+        margin-bottom: 10vh;
     }
     .skills{
         flex-direction: column;
