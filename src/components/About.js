@@ -55,9 +55,6 @@ function About(){
                     </div>
                 </div>
             </div>
-            <div className='right-about'>
-
-            </div>
         </div>
     )
 }
