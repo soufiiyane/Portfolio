@@ -1,9 +1,17 @@
 import '../assets/css/About.css';
 import profile from '../assets/Me.jpg';
+import WOW from 'wowjs';
+import React, { useState, useEffect } from 'react';
+import "../../node_modules/wowjs/css/libs/animate.css"
 function About(){
-
+    useEffect(() => {
+        const wow = new WOW.WOW({
+          live: false,
+        });
+        wow.init();
+      }, []);
     return(
-        <div className='about'>
+        <div className='about wow fadeIn' data-wow-duration="3s">
             <div className='left-about'>
                 <div className='about-headline'>
                     <div>
@@ -13,7 +21,7 @@ function About(){
                     <span></span>
                 </div>
                 <p>
-                Hello! my name is Soufiyane Aitmoulay, I'm a junior full-stack web developer, currently finishing my engineering studies in computer science,  i'm ex junior developer at TMT, i have worked on several projects before, i'm a geek tech guy and i like challenges as i feel i'm born for them.
+                Hello! my name is Soufiyane Aitmoulay, I'm a junior full-stack web developer, currently finishing my engineering studies in computer science, ex junior developer at TMT, i have worked on several projects before, i'm a geek tech guy and i like challenges as i feel i'm born for them.
                 </p>
                 <p>
                 Fast-forward to today, i'm more into anything related to <span>javascript frameworks</span>, my main focus these days is having a deep gasp in <span>Object-Oriented Analyse</span> & <span>Design Patterns</span> in General 
