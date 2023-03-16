@@ -70,7 +70,6 @@
     align-items: center;
 }
 .right-about{
-    position: relative;
     max-width: 300px;
 }
 .wrapper-about{
@@ -80,9 +79,27 @@
     width: 100%;
     border-radius: 10px;
     background-color: #64ffda;
-    overflow: hidden;
+}
+
+.wrapper-about::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e6f1ff;
+    border-radius: 10px;
+    top: 30px;
+    right: -30px;
+    transition: .5s;
+
+}
+.wrapper-about:hover::after{
+    top: 10px;
+    right: -15px;
 }
 .wrapper-about img{
+    border-radius: 10px;
+    z-index: 1;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -91,6 +108,7 @@
     filter: grayscale(100%) contrast(1);
     display: block;
 }
+
 @media (max-width: 1100px){
     .about{
         height: fit-content;
