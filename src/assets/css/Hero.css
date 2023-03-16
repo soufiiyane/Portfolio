@@ -1,6 +1,5 @@
 .hero {
     height: 100vh;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +26,7 @@
 }
 
 .hero p {
-    font-family: 'Space Mono';
+    font-family: 'Space Mono',sans-serif;
     max-width: 550px;
     text-align: justify;
 }
@@ -39,7 +38,7 @@
     margin-top: 15px;
     width: fit-content;
     padding: 5px;
-    font-family: 'Space Mono';
+    font-family: 'Space Mono', sans-serif;
     cursor: pointer;
     transition: .5s;
 }
@@ -57,5 +56,6 @@
 @media (max-width: 480px){
     .hero{
         font-size: 6px;
+        
     }
 }

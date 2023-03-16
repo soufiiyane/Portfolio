@@ -3,18 +3,20 @@ import Menu from './components/Menu';
 import Socials from './components/Socials';
 import FloatingEmail from './components/FloatingEmail';
 import Hero from './components/Hero';
-import About from './components/About';
+import About from './components/About'; 
+import Experience from './components/Experience';
 function App() {
   return (
     <div className="App">
       <Menu/>
       <div className='body-Container'>
-          <div className='right'>
+          <div className='right-email'>
             <FloatingEmail/>
           </div>
           <main>
             <Hero/>
             <About/>
+            <Experience/>
           </main>
           <div className='left'>
             <Socials/>

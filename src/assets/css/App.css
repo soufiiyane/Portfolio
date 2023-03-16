@@ -16,4 +16,6 @@ main{
     width: 100%;
     max-width: 1600px;
 }
-
+html {
+    scroll-behavior: smooth;
+}

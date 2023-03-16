@@ -32,7 +32,7 @@ function Menu() {
     <nav className={`wow fadeInDown ${menuClass}`} data-wow-duration="1s">
       <p className='wow fadeInDown' data-wow-duration=".2s">Logo</p>
       <ul>
-          <li className='wow fadeInDown' data-wow-duration=".2s"><a href='#'><span>01.</span>About</a></li>
+          <li className='wow fadeInDown' data-wow-duration=".2s"><a href='#about'><span>01.</span>About</a></li>
           <li className='wow fadeInDown' data-wow-duration=".4s"><a href='#'><span>02.</span>Experience</a></li>
           <li className='wow fadeInDown' data-wow-duration=".6s"><a href='#'><span>03.</span>Work</a></li>
           <li className='wow fadeInDown' data-wow-duration=".8s"><a href='#'><span>04.</span>Contact</a></li>
