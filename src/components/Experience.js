@@ -38,7 +38,7 @@ function Experience(){
             </div>
             <span></span>
           </div>
-            <Chrono items={items} slideShow mode="VERTICAL" />
+            <Chrono items={items}  mode="VERTICAL" />
         </div>
     )
 }

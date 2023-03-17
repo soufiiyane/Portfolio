@@ -18,17 +18,28 @@ p.timeline-card-contentstyles__TimelineContentDetails-sc-d7qjm1-4{
     word-spacing: wrap !important;
 }
 .dWNZQD{
-    font-family: 'Space Mono',sans-serif;
+    font-family: 'Space Mono',sans-serif !important;
     color: #e6f1ff !important ;
     text-align: center !important;
     overflow: unset !important;
 }
 .dWNZQD.active{
+    font-family: 'Space Mono',sans-serif !important;
+    background: #233554 !important;
+    color: #e6f1ff !important;
+    text-align: center !important;   
+}
+.hEUqCq.active{
     font-family: 'Space Mono',sans-serif;
     background: #233554 !important;
     color: #e6f1ff !important;
-    text-align: center;
-    
+    text-align: center !important;   
+}
+.hEUqCq{
+    font-family: 'Space Mono',sans-serif !important;
+    color: #e6f1ff !important ;
+    text-align: center !important;
+    overflow: unset !important;
 }
 .igUvje:not(.using-icon).active::after {
     background: #64ffda !important;
