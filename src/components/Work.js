@@ -1,10 +1,12 @@
 import '../assets/css/work.css';
-import yinas from '../assets/workImages/yinas.png'
-import weshare from '../assets/workImages/weshare.png'
+import yinas from '../assets/workImages/yinas.png';
+import weshare from '../assets/workImages/weshare.png';
+import nft from '../assets/workImages/Nft.png';
 import shoppingCart from '../assets/workImages/shoppingCart.png'
 import React, { useState, useEffect } from 'react';
 import WOW from 'wowjs';
 import "../../node_modules/wowjs/css/libs/animate.css";
+
 function Work(){
 
     useEffect(() => {
@@ -78,6 +80,24 @@ function Work(){
                     <li>jQuery</li>
                 </ul>
                 <a target='_blank' href='https://github.com/soufiiyane/Shopping-Cart'>Learn More</a>
+            </div>
+          </div>
+          <div className='work-card wow fadeInDown' data-wow-duration="1s">
+            <div className='work-image' >
+                <img src={nft} alt='Yinas Theme'/>
+            </div>
+            <div className='work-content'>
+                <span>Featured Project</span>
+                <h4>Static NFT</h4>
+                <div className='work-text'>
+                    <p>simple static website using development classic, thought it's worth mention since it was first project i ever built was so proud of it and still HAHA !!</p>
+                </div>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript (ES6+)</li>
+                </ul>
+                <a target='_blank' href='https://github.com/soufiiyane/NFT-Website'>Learn More</a>
             </div>
           </div>
         </div>
