@@ -50,5 +50,18 @@ p.timeline-card-contentstyles__TimelineContentDetails-sc-d7qjm1-4{
 .timeline-card-contentstyles__ShowMore-sc-d7qjm1-7 > span{
     font-family: 'Poppins' , sans-serif;
     color: black !important;
-    
+}
+.hEDaCh:not(.using-icon) {
+    background-color: #e6f1ff !important;
+}
+.hEDaCh:not(.using-icon).active::after {
+    background: #64ffda !important;
+}
+@media(max-width:768px) {
+    .experience{
+        padding: 0; 
+    }
+    .specialCase{
+        padding-left: 10% !important;
+    }
 }
