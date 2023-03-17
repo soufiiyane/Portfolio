@@ -13,7 +13,7 @@ function Work(){
           </div>
           <div className='work-card'>
             <div className='work-image' >
-                
+                <img src={yinas} alt='Yinas Theme'/>
             </div>
             <div className='work-content'>
                 <span>Featured Project</span>
