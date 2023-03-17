@@ -5,6 +5,7 @@ import FloatingEmail from './components/FloatingEmail';
 import Hero from './components/Hero';
 import About from './components/About'; 
 import Experience from './components/Experience';
+import Work from './components/Work';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
             <Hero/>
             <About/>
             <Experience/>
+            <Work/>
           </main>
           <div className='left'>
             <Socials/>
