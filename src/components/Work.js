@@ -1,17 +1,29 @@
 import '../assets/css/work.css';
 import yinas from '../assets/workImages/yinas.png'
+import weshare from '../assets/workImages/weshare.png'
+import shoppingCart from '../assets/workImages/shoppingCart.png'
+import React, { useState, useEffect } from 'react';
+import WOW from 'wowjs';
+import "../../node_modules/wowjs/css/libs/animate.css";
 function Work(){
 
+    useEffect(() => {
+        const wow = new WOW.WOW({
+          live: false,
+        });
+        wow.init();
+    }, []);
+
     return(
-        <div className="work">
-            <div className='about-headline'>
+        <div id='work' className="work" >
+            <div className='about-headline wow fadeInDown' data-wow-duration="1s">
                 <div>
                     <span>03.</span>
                     <h2>Projects</h2>
                 </div>
                 <span></span>
-          </div>
-          <div className='work-card'>
+            </div>
+          <div className='work-card wow fadeInDown' data-wow-duration="1s">
             <div className='work-image' >
                 <img src={yinas} alt='Yinas Theme'/>
             </div>
@@ -19,7 +31,7 @@ function Work(){
                 <span>Featured Project</span>
                 <h4>Yinas WordPress Theme</h4>
                 <div className='work-text'>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>   
+                    <p>Yinas is a wordpress blog theme developed by me, back then i was learning about wordpress development, and thought wouldn't be just so cool to develop a blog theme ? and i took it as a challenge. i tried to make yinas theme dynamically as much as possible with ACF (Advanced Custom Fields), and giving the admin the freedom to play with layout as he wants and to choose what to show and what to hide and reorganize the structure whenever he wants.</p>   
                 </div>
                 <ul>
                     <li>Bootstrap</li>
@@ -28,7 +40,44 @@ function Work(){
                     <li>PHP</li>
                     <li>WordPress</li>
                 </ul>
-                <a href='#'>Learn More</a>
+                <a target='_blank' href='https://fitashi.com'>Learn More</a>
+            </div>
+          </div>
+          <div className='work-card wow fadeInDown' data-wow-duration="1s">
+            <div className='work-image' >
+                <img src={weshare} alt='Yinas Theme'/>
+            </div>
+            <div className='work-content'>
+                <span>Featured Project</span>
+                <h4>WeShare Social Network</h4>
+                <div className='work-text'>
+                    <p>WeShare is a social network app, where you can share posts and like & comment on your friends posts also you can message them or view their profile and follow or unfollow..., this project was my first PHP project back in 2021 and i learned PHP through it and you guessed it the code structure is pretty much shit, but hopefully i can clean it soon, but like the say if it's working don't touch it</p>   
+                </div>
+                <ul>
+                    <li>Bootstrap</li>
+                    <li>Javascript (ES6+)</li>
+                    <li>jQuery</li>
+                    <li>API Calls</li>
+                    <li>PHP</li>
+                </ul>
+                <a target='_blank' href='https://github.com/soufiiyane/WeShare'>Learn More</a>
+            </div>
+          </div>
+          <div className='work-card wow fadeInDown' data-wow-duration="1s">
+            <div className='work-image' >
+                <img src={shoppingCart} alt='Yinas Theme'/>
+            </div>
+            <div className='work-content'>
+                <span>Featured Project</span>
+                <h4>TypeScript Shopping-Cart</h4>
+                <div className='work-text'>
+                    <p>the project is a clone of a shopping cart template i found on dribbble, so i tried to    rebuild it and give it some functionality using Typescript</p>   
+                </div>
+                <ul>
+                    <li>TypeScript</li>
+                    <li>jQuery</li>
+                </ul>
+                <a target='_blank' href='https://github.com/soufiiyane/Shopping-Cart'>Learn More</a>
             </div>
           </div>
         </div>

@@ -1,10 +1,10 @@
 .work{
-    height: 100vh;    
     padding: 0 10%;
 }
 .work-card{
     display: flex;
     flex-direction: row;
+    margin-bottom: 15px;
 }
 .work-image{
     flex-basis: 50%;
@@ -73,6 +73,7 @@
     padding:10px;
     margin-bottom: 15px;
     transition: .5s;
+    font-family: 'Space Mono', monospace;
 }
 .work-content a:hover{
     background-color: #64ffdb36;
@@ -81,7 +82,6 @@
     .work-image{
         flex-basis: 100%;
         position: relative;
-        
     }
     .work-image::after{
         position: absolute;
@@ -100,6 +100,7 @@
         margin-left: -100%;
         text-align: left;
         padding: 10px;
+        font-size: 14px;
     }
     .work-text{
         background-color: transparent;
@@ -119,5 +120,10 @@
     }
     .work-text p{
       opacity: 1;  
+    }
+}
+@media(max-width:400px) {
+    .work-content{
+        font-size: 10px !important;
     }
 }
