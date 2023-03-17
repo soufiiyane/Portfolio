@@ -11,7 +11,7 @@ function About(){
         wow.init();
       }, []);
     return(
-        <div id='about' className='about wow fadeIn' data-wow-duration="3s">
+        <div id='about' className='about wow fadeInDown' data-wow-duration="2s">
             <div className='left-about'>
                 <div className='about-headline'>
                     <div>

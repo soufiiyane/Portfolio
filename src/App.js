@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import About from './components/About'; 
 import Experience from './components/Experience';
 import Work from './components/Work';
+import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
             <About/>
             <Experience/>
             <Work/>
+            <Contact/>
           </main>
           <div className='left'>
             <Socials/>

@@ -29,12 +29,12 @@ function Menu() {
 
   return (
     <nav className={`wow fadeInDown ${menuClass}`} data-wow-duration="1s">
-      <p className='wow fadeInDown' data-wow-duration=".2s">Logo</p>
+      <p className='wow fadeInDown' data-wow-duration=".2s">SouFiyane</p>
       <ul>
           <li className='wow fadeInDown' data-wow-duration=".2s"><a href='#about'><span>01.</span>About</a></li>
           <li className='wow fadeInDown' data-wow-duration=".4s"><a href='#experience'><span>02.</span>Experience</a></li>
           <li className='wow fadeInDown' data-wow-duration=".6s"><a href='#work'><span>03.</span>Work</a></li>
-          <li className='wow fadeInDown' data-wow-duration=".8s"><a href='#'><span>04.</span>Contact</a></li>
+          <li className='wow fadeInDown' data-wow-duration=".8s"><a href='#contact'><span>04.</span>Contact</a></li>
           <li className='wow fadeInDown' data-wow-duration="1s"><a href={Resume}>Resume</a></li>
       </ul>
       <div className='humberger-Container'>
@@ -48,7 +48,7 @@ function Menu() {
               <li className='wow fadeInDown' data-wow-duration=".2s"><a href='#about'><span>01.</span>About</a></li>
               <li className='wow fadeInDown' data-wow-duration=".4s"><a href='#experience'><span>02.</span>Experience</a></li>
               <li className='wow fadeInDown' data-wow-duration=".6s"><a href='#work'><span>03.</span>Work</a></li>
-              <li className='wow fadeInDown' data-wow-duration=".8s"><a href='#'><span>04.</span>Contact</a></li>
+              <li className='wow fadeInDown' data-wow-duration=".8s"><a href='#contact'><span>04.</span>Contact</a></li>
               <li className='wow fadeInDown' data-wow-duration="1s"><a href={Resume}>Resume</a></li>
             </ul>
         </aside>
