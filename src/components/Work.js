@@ -18,72 +18,36 @@ function Work(){
 
     return(
         <div id='work' className="work" >
-            <div className='about-headline wow fadeInDown' data-wow-duration="1s">
+            <div className='about-headline wow fadeInDown special-headline' data-wow-duration="1s">
                 <div>
                     <span>03.</span>
                     <h2>Projects</h2>
                 </div>
                 <span></span>
             </div>
-          <div className='work-card wow fadeInDown' data-wow-duration="1s">
-            <div className='work-image' >
-                <img src={yinas} alt='Yinas Theme'/>
-            </div>
-            <div className='work-content'>
-                <span>Featured Project</span>
-                <h4>Yinas WordPress Theme</h4>
-                <div className='work-text'>
-                    <p>Yinas is a wordpress blog theme developed by me, back then i was learning about wordpress development, and thought wouldn't be just so cool to develop a blog theme ? and i took it as a challenge. i tried to make yinas theme dynamically as much as possible with ACF (Advanced Custom Fields), and giving the admin the freedom to play with layout as he wants and to choose what to show and what to hide and reorganize the structure whenever he wants.</p>   
+        <section id="projects">
+            <article>
+                <div class="text">
+                    <h4>Latest Project</h4>
+                    <h3>Yinas Theme</h3>
+                    <p class="blackbox">
+                        Description of the project. This should be fairly concise while
+                        also describing the key components that you developed or worked
+                        on. It can be as long as you need it to be but should at least be
+                        a few sentences long. Be sure to include specific links anywhere
+                        in the description. A link looks like
+                    </p>
+                    <h4>Technologies used include:</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SVG</li>
+                    </ul>
                 </div>
-                <ul>
-                    <li>Bootstrap</li>
-                    <li>Javascript (ES6+)</li>
-                    <li>o</li>
-                    <li>PHP</li>
-                    <li>WordPress</li>
-                </ul>
-                <a target='_blank' href='https://fitashi.com'>Learn More</a>
-            </div>
-          </div>
-          <div className='work-card wow fadeInDown' data-wow-duration="1s">
-            <div className='work-image' >
-                <img src={Summarizer} alt='Yinas Theme'/>
-            </div>
-            <div className='work-content'>
-                <span>Featured Project</span>
-                <h4>PDF Summarizer</h4>
-                <div className='work-text'>
-                    <p>A web-based application that utilizes PDF.js library to extract text from PDF pages and OpenAI API to generate summarized versions of the extracted text. Provides a convenient way to summarize lengthy PDF documents using AI-powered technology, making it easier to review and understand the content.</p>
-                </div>
-                <ul>
-                    <li>Javascript (ES6+)</li>
-                    <li>Node.js</li>
-                    <li>Express.js</li>
-                    <li>OpenAI</li>
-                </ul>
-                <a target='_blank' href='https://github.com/soufiiyane/Shopping-Cart'>Learn More</a>
-            </div>
-          </div>
-          <div className='work-card wow fadeInDown' data-wow-duration="1s">
-            <div className='work-image' >
-                <img src={Typerite} alt='Typerite'/>
-            </div>
-            <div className='work-content'>
-                <span>Featured Project</span>
-                <h4>Typerite</h4>
-                <div className='work-text'>
-                    <p>Typerite is a powerful and scalable blog project developed using PHP, incorporating best practices of object-oriented programming (OOP) and design patterns. With a user-friendly admin interface, Typerite allows admins to effortlessly create, edit, and manage articles, video and audio links, and visitor comments. Robust user authentication with email verification, input validation, and password encryption ensures data security. The project is designed for maintainability.</p>
-                </div>
-                <ul>
-                    <li>Javascript (ES6+)</li>
-                    <li>PHP</li>
-                    <li>Ajax</li>
-                    <li>OOP & Design Patterns</li>
-                </ul>
-                <a target='_blank' href='#'>Learn More</a>
-            </div>
-          </div>
-        </div>
+                <img src={yinas} alt="Screenshot of the Wall of Wonder." />
+            </article>
+        </section>
+    </div>
     )
 
 }
