@@ -29,19 +29,17 @@ function Work(){
             <article>
                 <div className="text">
                     <p className='color'>Featured Project</p>
-                    <h3>Yinas Theme</h3>
+                    <h4>Yinas Theme</h4>
                     <p className="blackbox">
-                        <span>Description of the project. This should be fairly concise while
-                        also describing the key components that you developed or worked
-                        on. It can be as long as you need it to be but should at least be
-                        a few sentences long. Be sure to include specific links anywhere
-                        in the description. A link looks like</span>
+                    <span>Yinas is a meticulously crafted WordPress blog theme that offers unparalleled customization options with ACF (Advanced Custom Fields). With its flexible design, admins can easily manipulate the layout, choose what content to display or hide, and create truly unique and personalized websites. Empowering bloggers to reflect their individuality and creativity.</span>
                     </p>
                     <p>Technologies used include:</p>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>SVG</li>
+                        <li>BootStrap</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>jQuery</li>
+                        <li>PHP</li>
+                        <li>WordPress</li>
                     </ul>
                     <a href='#'>Learn More</a>
                 </div>
@@ -50,42 +48,38 @@ function Work(){
             <article>
                 <div className="text">
                     <p className='color'>Featured Project</p>
-                    <h3>Yinas Theme</h3>
+                    <h4>PDF Summarizer</h4>
                     <p className="blackbox">
-                        <span>Description of the project. This should be fairly concise while
-                        also describing the key components that you developed or worked
-                        on. It can be as long as you need it to be but should at least be
-                        a few sentences long. Be sure to include specific links anywhere
-                        in the description. A link looks like</span>
+                    <span>The PDF Summarizer is a web-based application that allows users to upload their PDF documents and receive a summarized version, Provides a convenient way to summarize lengthy PDF documents using OpenAI</span>
                     </p>
                     <p>Technologies used include:</p>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>SVG</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>Node.JS</li>
+                        <li>Express.JS</li>
+                        <li>OpenAI</li>
                     </ul>
+                    <a href='#'>Learn More</a>
                 </div>
-                <img src={yinas} alt="Screenshot of the Wall of Wonder." />
+                <img src={Summarizer} alt="Screenshot of the Wall of Wonder." />
             </article>
             <article>
                 <div className="text">
                     <p className='color'>Featured Project</p>
-                    <h3>Yinas Theme</h3>
+                    <h4>Typerite</h4>
                     <p className="blackbox">
-                    <span>Description of the project. This should be fairly concise while
-                        also describing the key components that you developed or worked
-                        on. It can be as long as you need it to be but should at least be
-                        a few sentences long. Be sure to include specific links anywhere
-                        in the description. A link looks like</span>
+                    <span>Typerite is a powerful PHP blog project with OOP and design pattern best practices. It features a user-friendly admin interface for easy article creation, editing, and management. With robust user authentication, email verification, and optimized performance, Typerite offers a dynamic blogging experience for admins and visitors.</span>
                     </p>
                     <p>Technologies used include:</p>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>SVG</li>
+                        <li>BootStrap</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>PHP</li>
+                        <li>Ajax</li>
                     </ul>
+                    <a href='#'>Learn More</a>
                 </div>
-                <img src={yinas} alt="Screenshot of the Wall of Wonder." />
+                <img src={Typerite} alt="Screenshot of the Wall of Wonder." />
             </article>
         </section>
     </div>
