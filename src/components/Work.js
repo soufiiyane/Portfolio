@@ -1,7 +1,6 @@
 import '../assets/css/work.css';
 import yinas from '../assets/workImages/yinas.png';
-import weshare from '../assets/workImages/weshare.png';
-import nft from '../assets/workImages/Nft.png';
+import Typerite from '../assets/workImages/Typerite.png';
 import Summarizer from '../assets/workImages/PDFSummarizer.png'
 
 import React, { useState, useEffect } from 'react';
@@ -39,31 +38,11 @@ function Work(){
                 <ul>
                     <li>Bootstrap</li>
                     <li>Javascript (ES6+)</li>
-                    <li>jQuery</li>
+                    <li>o</li>
                     <li>PHP</li>
                     <li>WordPress</li>
                 </ul>
                 <a target='_blank' href='https://fitashi.com'>Learn More</a>
-            </div>
-          </div>
-          <div className='work-card wow fadeInDown' data-wow-duration="1s">
-            <div className='work-image' >
-                <img src={weshare} alt='Yinas Theme'/>
-            </div>
-            <div className='work-content'>
-                <span>Featured Project</span>
-                <h4>WeShare Social Network</h4>
-                <div className='work-text'>
-                    <p>WeShare is a social network app, where you can share posts and like & comment on your friends posts also you can message them or view their profile and follow or unfollow..., this project was my first PHP project back in 2021 and i learned PHP through it and you guessed it the code structure is pretty much shit, but hopefully i can clean it soon, but like the say if it's working don't touch it</p>   
-                </div>
-                <ul>
-                    <li>Bootstrap</li>
-                    <li>Javascript (ES6+)</li>
-                    <li>jQuery</li>
-                    <li>API Calls</li>
-                    <li>PHP</li>
-                </ul>
-                <a target='_blank' href='https://github.com/soufiiyane/WeShare'>Learn More</a>
             </div>
           </div>
           <div className='work-card wow fadeInDown' data-wow-duration="1s">
@@ -74,7 +53,7 @@ function Work(){
                 <span>Featured Project</span>
                 <h4>PDF Summarizer</h4>
                 <div className='work-text'>
-                    <p>Developed a PDF text extraction tool using OpenAI API for automatic summarization of PDF documents. Extracts text from PDF files and generates concise summaries for each page, providing efficient and effective information extraction capabilities. Ideal for busy professionals, students, and anyone seeking a quick overview of lengthy PDF documents.</p>
+                    <p>A web-based application that utilizes PDF.js library to extract text from PDF pages and OpenAI API to generate summarized versions of the extracted text. Provides a convenient way to summarize lengthy PDF documents using AI-powered technology, making it easier to review and understand the content.</p>
                 </div>
                 <ul>
                     <li>Javascript (ES6+)</li>
@@ -83,6 +62,25 @@ function Work(){
                     <li>OpenAI</li>
                 </ul>
                 <a target='_blank' href='https://github.com/soufiiyane/Shopping-Cart'>Learn More</a>
+            </div>
+          </div>
+          <div className='work-card wow fadeInDown' data-wow-duration="1s">
+            <div className='work-image' >
+                <img src={Typerite} alt='Typerite'/>
+            </div>
+            <div className='work-content'>
+                <span>Featured Project</span>
+                <h4>Typerite</h4>
+                <div className='work-text'>
+                    <p>Typerite is a powerful and scalable blog project developed using PHP, incorporating best practices of object-oriented programming (OOP) and design patterns. With a user-friendly admin interface, Typerite allows admins to effortlessly create, edit, and manage articles, video and audio links, and visitor comments. Robust user authentication with email verification, input validation, and password encryption ensures data security. The project is designed for maintainability.</p>
+                </div>
+                <ul>
+                    <li>Javascript (ES6+)</li>
+                    <li>PHP</li>
+                    <li>Ajax</li>
+                    <li>OOP & Design Patterns</li>
+                </ul>
+                <a target='_blank' href='#'>Learn More</a>
             </div>
           </div>
         </div>
