@@ -2,7 +2,8 @@ import '../assets/css/work.css';
 import yinas from '../assets/workImages/yinas.png';
 import weshare from '../assets/workImages/weshare.png';
 import nft from '../assets/workImages/Nft.png';
-import shoppingCart from '../assets/workImages/shoppingCart.png'
+import Summarizer from '../assets/workImages/PDFSummarizer.png'
+
 import React, { useState, useEffect } from 'react';
 import WOW from 'wowjs';
 import "../../node_modules/wowjs/css/libs/animate.css";
@@ -67,37 +68,21 @@ function Work(){
           </div>
           <div className='work-card wow fadeInDown' data-wow-duration="1s">
             <div className='work-image' >
-                <img src={shoppingCart} alt='Yinas Theme'/>
+                <img src={Summarizer} alt='Yinas Theme'/>
             </div>
             <div className='work-content'>
                 <span>Featured Project</span>
-                <h4>TypeScript Shopping-Cart</h4>
+                <h4>PDF Summarizer</h4>
                 <div className='work-text'>
-                    <p>the project is a clone of a shopping cart template i found on dribbble, so i tried to    rebuild it and give it some functionality using Typescript</p>   
+                    <p>Developed a PDF text extraction tool using OpenAI API for automatic summarization of PDF documents. Extracts text from PDF files and generates concise summaries for each page, providing efficient and effective information extraction capabilities. Ideal for busy professionals, students, and anyone seeking a quick overview of lengthy PDF documents.</p>
                 </div>
                 <ul>
-                    <li>TypeScript</li>
-                    <li>jQuery</li>
+                    <li>Javascript (ES6+)</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>OpenAI</li>
                 </ul>
                 <a target='_blank' href='https://github.com/soufiiyane/Shopping-Cart'>Learn More</a>
-            </div>
-          </div>
-          <div className='work-card wow fadeInDown' data-wow-duration="1s">
-            <div className='work-image' >
-                <img src={nft} alt='Yinas Theme'/>
-            </div>
-            <div className='work-content'>
-                <span>Featured Project</span>
-                <h4>Static NFT</h4>
-                <div className='work-text'>
-                    <p>simple static website using development classic, thought it's worth mention since it was first project i ever built was so proud of it and still HAHA !!</p>
-                </div>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript (ES6+)</li>
-                </ul>
-                <a target='_blank' href='https://github.com/soufiiyane/NFT-Website'>Learn More</a>
             </div>
           </div>
         </div>
