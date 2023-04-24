@@ -61,11 +61,7 @@ article a:hover{
     width: 100%;
     margin: 2rem 0 4rem 0;
     padding: 1rem;
-    
 }
-
-
-
 
 @media (min-width: 800px) {
     article {

@@ -24,7 +24,7 @@ function About(){
                 Hello! my name is Soufiyane Aitmoulay, I'm a junior full-stack web developer, currently finishing my engineering studies in computer science, ex junior developer at TMT, i have worked on several projects before, i'm a geek tech guy and i like challenges as i feel i'm born for them.
                 </p>
                 <p>
-                Looking ahead to the present day, my focus has shifted towards anything related to <span>Javascript</span>, I've been engrossed in a captivating <span>book series</span> called <span>You Don't Know JS</span> and my passion for it has only grown stronger.
+                Looking ahead to the present day, my focus has shifted towards anything related to <span>Javascript</span>, as i'm delving into the inner workings of <span>JavaScript</span> seeking a deeper understanding of how it functions under the hood.
                 </p>
                 <p>
                     Here are a few technologies I've been working with recently: 

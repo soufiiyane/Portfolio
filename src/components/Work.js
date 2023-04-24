@@ -2,6 +2,8 @@ import '../assets/css/work.css';
 import yinas from '../assets/workImages/yinas.png';
 import Typerite from '../assets/workImages/Typerite.png';
 import Summarizer from '../assets/workImages/PDFSummarizer.png'
+import Tiniri from '../assets/workImages/Tiniri.png'
+
 
 import React, { useState, useEffect } from 'react';
 import WOW from 'wowjs';
@@ -26,7 +28,7 @@ function Work(){
                 <span></span>
             </div>
         <section id="projects">
-            <article>
+            <article >
                 <div className="text">
                     <p className='color'>Featured Project</p>
                     <h4>Yinas Theme</h4>
@@ -44,6 +46,24 @@ function Work(){
                     <a href='#'>Learn More</a>
                 </div>
                 <img src={yinas} alt="Screenshot of the Wall of Wonder." />
+            </article>
+            <article className='reverse'>
+                <div className="text">
+                    <p className='color'>Featured Project</p>
+                    <h4>Typerite</h4>
+                    <p className="blackbox">
+                    <span>Typerite is a powerful Symfony blog project. It features a user-friendly admin interface for easy article creation, editing, and management. With robust user authentication, email verification, and optimized performance, Typerite offers a dynamic blogging experience for admins and visitors.</span>
+                    </p>
+                    <p>Technologies used include:</p>
+                    <ul>
+                        <li>BootStrap</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>PHP</li>
+                        <li>Symfony (PHP FrameWork)</li>
+                    </ul>
+                    <a href='#'>Learn More</a>
+                </div>
+                <img src={Typerite} alt="Screenshot of the Wall of Wonder." />
             </article>
             <article>
                 <div className="text">
@@ -63,23 +83,23 @@ function Work(){
                 </div>
                 <img src={Summarizer} alt="Screenshot of the Wall of Wonder." />
             </article>
-            <article>
+            <article className='reverse'>
                 <div className="text">
                     <p className='color'>Featured Project</p>
-                    <h4>Typerite</h4>
+                    <h4>Tiniri Extension</h4>
                     <p className="blackbox">
-                    <span>Typerite is a powerful PHP blog project with OOP and design pattern best practices. It features a user-friendly admin interface for easy article creation, editing, and management. With robust user authentication, email verification, and optimized performance, Typerite offers a dynamic blogging experience for admins and visitors.</span>
+                    <span>
+                    Tiniri is VSCode dark theme extension inspired by the captivating Berber culture of Morocco. With its unique blend of darkness and elegance, it brings a touch of cultural richness to coding environment, Let the Tiniri theme envelop you in its enigmatic allure and elevate your coding workflow to new levels of creativity and productivity.
+                    </span>
                     </p>
                     <p>Technologies used include:</p>
                     <ul>
-                        <li>BootStrap</li>
                         <li>JavaScript (ES6+)</li>
-                        <li>PHP</li>
-                        <li>Ajax</li>
+                        <li>VSCode (Theme develoment)</li>
                     </ul>
                     <a href='#'>Learn More</a>
                 </div>
-                <img src={Typerite} alt="Screenshot of the Wall of Wonder." />
+                <img src={Tiniri} alt="Screenshot of the Wall of Wonder." />
             </article>
         </section>
     </div>
