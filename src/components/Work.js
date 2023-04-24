@@ -37,15 +37,16 @@ function Work(){
                     </p>
                     <p>Technologies used include:</p>
                     <ul>
-                        <li>BootStrap</li>
                         <li>JavaScript (ES6+)</li>
-                        <li>jQuery</li>
                         <li>PHP</li>
-                        <li>WordPress</li>
+                        <li>WordPress (Development)</li>
+                        <li>Plugins</li>
                     </ul>
-                    <a href='#'>Learn More</a>
+                    <a target='_blank' href='https://fitashi.com/'>Learn More</a>
                 </div>
-                <img src={yinas} alt="Screenshot of the Wall of Wonder." />
+                <div className='image-work-container'>
+                    <img src={yinas}  alt="Yinas Wordpress Theme" />
+                </div>
             </article>
             <article className='reverse'>
                 <div className="text">
@@ -61,9 +62,11 @@ function Work(){
                         <li>PHP</li>
                         <li>Symfony (PHP FrameWork)</li>
                     </ul>
-                    <a href='#'>Learn More</a>
+                    <a> Private</a>
                 </div>
-                <img src={Typerite} alt="Screenshot of the Wall of Wonder." />
+                <div className='image-work-container'>
+                    <img src={Typerite} alt="Typerite Blog" />
+                </div>
             </article>
             <article>
                 <div className="text">
@@ -79,9 +82,11 @@ function Work(){
                         <li>Express.JS</li>
                         <li>OpenAI</li>
                     </ul>
-                    <a href='#'>Learn More</a>
+                    <a target='_blank' href='https://github.com/soufiiyane/PDF-AISummarizer'>Learn More</a>
                 </div>
-                <img src={Summarizer} alt="Screenshot of the Wall of Wonder." />
+                <div className='image-work-container'>
+                    <img src={Summarizer} alt="Screenshot of the Wall of Wonder." />
+                </div>
             </article>
             <article className='reverse'>
                 <div className="text">
@@ -97,13 +102,15 @@ function Work(){
                         <li>JavaScript (ES6+)</li>
                         <li>VSCode (Theme develoment)</li>
                     </ul>
-                    <a href='#'>Learn More</a>
+                    <a target='_blank' href='https://marketplace.visualstudio.com/items?itemName=soufiyane.tiniri'>Learn More</a>
                 </div>
-                <img src={Tiniri} alt="Screenshot of the Wall of Wonder." />
+                <div className='image-work-container'>
+                    <img src={Tiniri} alt="Tiniri Extension" />
+                </div>
             </article>
+            
         </section>
     </div>
     )
-
 }
 export default Work;
