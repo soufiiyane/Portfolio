@@ -2,7 +2,6 @@ import '../assets/css/Menu.css';
 import React, { useState, useEffect } from 'react';
 import WOW from 'wowjs';
 import "../../node_modules/wowjs/css/libs/animate.css";
-import Resume from '../Resume.pdf';
 function Menu() {
 
   const [menuClass, setMenuClass] = useState('');
@@ -35,7 +34,6 @@ function Menu() {
           <li className='wow fadeInDown' data-wow-duration=".4s"><a href='#experience'><span>02.</span>Experience</a></li>
           <li className='wow fadeInDown' data-wow-duration=".6s"><a href='#work'><span>03.</span>Work</a></li>
           <li className='wow fadeInDown' data-wow-duration=".8s"><a href='#contact'><span>04.</span>Contact</a></li>
-          <li className='wow fadeInDown' data-wow-duration="1s"><a href={Resume}>Resume</a></li>
       </ul>
       <div className='humberger-Container'>
         <input id="toggle" type="checkbox"></input>
@@ -49,7 +47,6 @@ function Menu() {
               <li className='wow fadeInDown' data-wow-duration=".4s"><a href='#experience'><span>02.</span>Experience</a></li>
               <li className='wow fadeInDown' data-wow-duration=".6s"><a href='#work'><span>03.</span>Work</a></li>
               <li className='wow fadeInDown' data-wow-duration=".8s"><a href='#contact'><span>04.</span>Contact</a></li>
-              <li className='wow fadeInDown' data-wow-duration="1s"><a href={Resume}>Resume</a></li>
             </ul>
         </aside>
         </label>

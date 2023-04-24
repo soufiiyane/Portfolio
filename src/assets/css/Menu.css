@@ -88,17 +88,6 @@ nav li a{
 nav li a:hover{
     color: #64ffda;
 }
-nav li:last-child {
-    border-radius: 5px;
-    border: 1px solid  #64ffda;
-    transition: .5s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-nav li:last-child:hover {
-    background-color: #64ffdb3a;
-}
 /* Main Menu Styling end */
 
 /* Mobile Menu Styiling */

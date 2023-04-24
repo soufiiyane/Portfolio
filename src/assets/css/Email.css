@@ -35,7 +35,7 @@
     color: #64ffda;
     margin-bottom: 5px;
 }
-@media (max-width: 768px){
+@media (max-width: 1400px){
     .right-email{
         display: none;
     }

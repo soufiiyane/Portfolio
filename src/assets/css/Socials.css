@@ -27,7 +27,7 @@
     height: 70px;
     background-color: #e6f1ff;
 }
-@media (max-width: 768px){
+@media (max-width: 1400px){
     .left{
         display: none;
     }

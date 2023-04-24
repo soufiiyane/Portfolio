@@ -3,8 +3,6 @@ import yinas from '../assets/workImages/yinas.png';
 import Typerite from '../assets/workImages/Typerite.png';
 import Summarizer from '../assets/workImages/PDFSummarizer.png'
 import Tiniri from '../assets/workImages/Tiniri.png'
-
-
 import React, { useState, useEffect } from 'react';
 import WOW from 'wowjs';
 import "../../node_modules/wowjs/css/libs/animate.css";
@@ -28,7 +26,7 @@ function Work(){
                 <span></span>
             </div>
         <section id="projects">
-            <article >
+            <article className='wow fadeInDown' data-wow-duration="1">
                 <div className="text">
                     <p className='color'>Featured Project</p>
                     <h4>Yinas Theme</h4>
@@ -42,13 +40,13 @@ function Work(){
                         <li>WordPress (Development)</li>
                         <li>Plugins</li>
                     </ul>
-                    <a target='_blank' href='https://fitashi.com/'>Learn More</a>
+                    <a  target='_blank' href='https://fitashi.com/'>Learn More</a>
                 </div>
                 <div className='image-work-container'>
                     <img src={yinas}  alt="Yinas Wordpress Theme" />
                 </div>
             </article>
-            <article className='reverse'>
+            <article className='reverse wow fadeInDown' data-wow-duration="2">
                 <div className="text">
                     <p className='color'>Featured Project</p>
                     <h4>Typerite</h4>
@@ -68,7 +66,7 @@ function Work(){
                     <img src={Typerite} alt="Typerite Blog" />
                 </div>
             </article>
-            <article>
+            <article className='wow fadeInDown' data-wow-duration="3">
                 <div className="text">
                     <p className='color'>Featured Project</p>
                     <h4>PDF Summarizer</h4>
@@ -88,7 +86,7 @@ function Work(){
                     <img src={Summarizer} alt="Screenshot of the Wall of Wonder." />
                 </div>
             </article>
-            <article className='reverse'>
+            <article className='reverse wow fadeInDown' data-wow-duration="4">
                 <div className="text">
                     <p className='color'>Featured Project</p>
                     <h4>Tiniri Extension</h4>
