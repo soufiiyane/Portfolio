@@ -150,3 +150,8 @@
         margin: 0 auto;
     }
 }
+@media (max-width: 480px){
+    .left-about p{
+        font-size: 14px;
+    }
+}
