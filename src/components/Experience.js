@@ -10,24 +10,25 @@ function Experience(){
     });
     wow.init();
   }, []);
-    const items = [{
+    const items = [
+      {
+        title: "Present",
+        cardTitle: "Junior Web Developer",
+        cardSubtitle:"TMT company",
+        cardDetailedText: "Working as junior web developer i have a diverse range of responsibilities. My areas of expertise include working with React.js, Symfony, and CMS WordPress plugin and theme development. I handle multiple roles and tasks within these frameworks to contribute effectively to the development process"
+      },
+      {
+        title: "Present",
+        cardTitle: "Engineering Student",
+        cardSubtitle:"Moroccan School of Engineering Sciences",
+        cardDetailedText: "After obtaining a BTS degree in Computer Science, I decided to pursue an engineering degree in Computer Science at the prestigious Moroccan School of Engineering Sciences. Simultaneously, working as a Junior Web Developer"
+      },
+      {
         title: "Jun 2022",
         cardTitle: "BTS in Computer Science",
         cardSubtitle:"Specialized Institute of Applied Technology",
-        cardDetailedText: "throught this program i learned so much about web development and technologies like (HTML5,CSS3,Javascript,XML,C#,.Net...) it was very fun period in my life that really shaped me into the men i am today ! to add i got graduate with a score of 95 out 100"
-      },
-      {
-        title: "Aug 2022",
-        cardTitle: "Back-end developer",
-        cardSubtitle:"TMT company",
-        cardDetailedText: "it was really amzing experience and fun at the same time to work with people that i share with same passion,i worked with technologies such as WordPress,Symfony"
-      },
-      {
-        title: "Oct 2022",
-        cardTitle: "Engineering Student",
-        cardSubtitle:"Moroccan School of Engineering Sciences",
-        cardDetailedText: "I am presently in my third year of pursuing an engineering degree in Computer Science"
-      }
+        cardDetailedText: "I successfully completed my studies with outstanding achievement, earning a score of 95 out of 100, It was during this time that my passion for Computer Science grew more and more."
+      }  
     ];
     return(
         <div id='experience' className='experience  wow fadeIn' data-wow-duration="3s">

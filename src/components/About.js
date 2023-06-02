@@ -21,9 +21,6 @@ function About(){
                     <span></span>
                 </div>
                 <p>
-                Hello! my name is Soufiyane Aitmoulay, I'm a junior full-stack web developer, currently finishing my engineering studies in computer science.
-                </p>
-                <p>
                 Looking ahead to the present day, my focus has shifted towards anything related to <span>Javascript</span>, as i'm delving into the inner workings of <span>JavaScript</span> seeking a deeper understanding of how it functions under the hood.
                 </p>
                 <p>
